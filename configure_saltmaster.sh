@@ -45,7 +45,7 @@ fi
 # Create directories for salt
 
 sudo mkdir -p /srv/salt/base
-sudo mkdir -p /srv/saltpillar
+sudo mkdir -p /srv/pillar
 echo "Directories needed by salt in /srv are created."
 
 # Change back to home directory of user.
