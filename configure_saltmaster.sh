@@ -16,8 +16,8 @@ echo "Hostname set to saltmaster."
 
 # Create directory to hold salt installation files and change directory.
 
-mkdir -p salt_install_files 
-cd salt_install_files
+mkdir -p /tmp/salt_install_files 
+cd /tmp/salt_install_files
 echo "Created salt_install_files directory to hold salt installation files."
 
 # Download salt
